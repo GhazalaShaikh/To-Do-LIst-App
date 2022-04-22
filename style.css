@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 862px;
+    background: #3498DB;
+    border: 1px solid #ECF0F1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px 30px #BDC3C7;
+}
+.header {
+    width: 338px;
+    font-family: 'Anton';
+    margin: auto;
+    font-size: 96px;
+    color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.input-List {
+    width: 448px;
+    font-family: 'Anton';
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: auto;
+    padding: auto;
+}
+.input-box {
+    width: 540px;
+    height: 93px; 
+    background: #FFFFFF;
+border: 2px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ margin: auto;
+font-family: 'Ubuntu';
+font-size: 48px;
+color: #ABA4A4;
+padding: 19px 22px;
+
+}
+.list-container {
+    width: 540px;
+    min-height: 111px;
+   margin: auto;
+   background: #ECF0F1;
+border: 1px solid #3498DB;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Ubuntu';
+font-weight: 300;
+font-size: 48px;
+line-height: 55px;
+color: #ABA4A4;
+   list-style: none;
+   margin-top: 43px;
+   margin-bottom: 30px;
+
+}
+.list {
+    margin: 0;
+    padding: 0;
+    
+}
+.list-container .list li {
+     list-style: none;
+     width: 540px;
+     height: 111px;
+     background: #ECF0F1;
+     border: 1px solid #3498DB;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Ubuntu';
+font-size: 48px;
+color: #000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 48px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
